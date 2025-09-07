@@ -743,7 +743,7 @@ a:focus, button:focus{ outline:3px solid rgba(124,77,255,0.18); outline-offset:3
   align-items: center;
   justify-content: center;
   z-index: 9999;
-  transition: opacity 2s ease, visibility 2s ease;
+  transition: opacity 3s ease, visibility 3s ease;
 }
 
 #typing-text {
@@ -755,7 +755,7 @@ a:focus, button:focus{ outline:3px solid rgba(124,77,255,0.18); outline-offset:3
   white-space: nowrap;
   overflow: hidden;
   width: 0; /* починає з нуля */
-  animation: typing 5s steps(25, end) forwards, blink 0.7s infinite;
+  animation: typing 3s steps(25, end) forwards, blink 0.7s infinite;
 }
 .preloader-content{
 display: flex;
