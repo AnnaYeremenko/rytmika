@@ -890,6 +890,7 @@ justify-content: center;
   .teacher-text { font-size: 15px; }
 }
 
+
 /* Мобільні */
 @media (max-width: 480px) {
   .teacher-photo { 
