@@ -22,7 +22,9 @@
         </div>
 
       </a>
-
+      <button class="menu-toggle" id="menu-toggle" aria-label="Меню">
+        ☰
+      </button>
       <nav class="main-nav" aria-label="Головне меню">
         <a href="#what">Що робимо на заняттях</a>
         <a href="#teacher">Про викладача</a>
@@ -337,6 +339,15 @@
       preloader.classList.add("hidden");
     }, 3500); // трохи більше часу, щоб встиг надрукуватись текст
   });
+</script>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+const mainNav = document.getElementById('main-nav');
+
+menuToggle.addEventListener('click', () => {
+  mainNav.classList.toggle('active');
+});
+
 </script>
 
     
