@@ -757,6 +757,10 @@ a:focus, button:focus{ outline:3px solid rgba(124,77,255,0.18); outline-offset:3
   width: 0; /* починає з нуля */
   animation: typing 3s steps(25, end) forwards, blink 0.7s infinite;
 }
+.preloader-img {
+  width: 150px;
+  height: auto;
+}
 @media (max-width: 500px){
   #typing-text{
     font-size: 35px;
