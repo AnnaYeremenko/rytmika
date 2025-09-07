@@ -607,12 +607,12 @@ filter: drop-shadow(0 5px 10px rgba(0,0,0,0.9));
 }
 
 
-@media (max-width: 720px){
+@media (max-width: 768px){
   .site-header{
     position: static;
   }
   .logo-text{
-    font-size: 26px;
+    font-size: 36px;
   }
 
   .hero-inner{ 
@@ -639,6 +639,10 @@ filter: drop-shadow(0 5px 10px rgba(0,0,0,0.9));
 .video-wrapper{
   width: 250px;
 }
+    .logo-text{
+      font-size: 26px;
+    }
+
 }
 
 /* невеликі поліпшення доступності */
