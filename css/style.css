@@ -892,7 +892,15 @@ justify-content: center;
 
 /* Мобільні */
 @media (max-width: 480px) {
-  .teacher-photo { width: 120px; height: 120px; flex: 0 0 120px; }
-  .teacher-name { font-size: 18px; }
-  .teacher-card { padding: 16px; }
+  .teacher-photo { 
+    width: 120px; 
+    height: 120px; 
+    flex: 0 0 120px; }
+  .teacher-name { 
+    font-size: 18px; }
+  .teacher-card { 
+    padding: 16px; }
+  .video-grid {
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 }
