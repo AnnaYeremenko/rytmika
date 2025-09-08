@@ -562,6 +562,9 @@ filter: drop-shadow(0 5px 10px rgba(0,0,0,0.9));
   flex-wrap:wrap;
   text-align: center;
 }
+.footer-author p a{
+  color: #e1002d;
+}
 .scroll-to-top {
   position: fixed;
   bottom: 30px;
