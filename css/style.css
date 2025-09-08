@@ -556,10 +556,11 @@ filter: drop-shadow(0 5px 10px rgba(0,0,0,0.9));
 }
 .footer-inner{
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   align-items:center;
   gap:12px;
   flex-wrap:wrap;
+  text-align: center;
 }
 .scroll-to-top {
   position: fixed;
@@ -711,7 +712,7 @@ a:focus, button:focus{ outline:3px solid rgba(124,77,255,0.18); outline-offset:3
 .music-btn {
   position: fixed;
   left: 20px;
-  bottom: 20px;
+  bottom: 70px;
   background: #ffffff;
   border: 2px solid #333;
   border-radius: 50%;
